@@ -1,0 +1,72 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #1b1d1f;
+}
+
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin-top: 32px;
+}
+
+.section-hero {
+  width: 100%;
+  background: linear-gradient(90deg, #fcfefe 0%, #a5deff 100%);
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1170px;
+}
+
+.content {
+  width: 573px;
+  padding: 52px;
+  border-radius: 40px;
+  box-shadow: 4px 4px 16px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.content p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.greeting {
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.title-gus {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.125;
+  margin-bottom: 24px;
+}
+
+.description {
+  margin-bottom: 32px;
+}
+
+.start-btn {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  border-radius: 8px;
+  padding: 12px 24px;
+  background: #008958;
+  border: none;
+}
+
+.start-btn:hover {
+  cursor: pointer;
+  background: #6a7c5c;
+}
