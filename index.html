@@ -20,7 +20,10 @@
       rel="stylesheet"
     />
 
+     <link rel="preload" href="./img/gus-anim.gif" as="image">
     <link rel="stylesheet" href="./css/styles.css" />
+
+    <script type="module" src="./js/form.js" defer></script>
   </head>
   <body>
     <section class="section-hero">
@@ -34,7 +37,7 @@
             подвигами, бороню Батьківщину та підтримую позитивний дух народу.
             Слава Україні!
           </p>
-          <button class="start-btn">Запустити гуся</button>
+          <button class="start-btn" id="go-to-form-btn">Запустити гуся</button>
         </div>
         <img
           src="./img/gus.svg"
@@ -96,7 +99,7 @@
     </section>
 
     <section class="section-contact-us">
-      <form action="#" class="contact-form">
+      <form action="#" class="contact-form" id="form">
         <img src="./img/trezub.svg" alt="trezub" class="logo-trezub" />
 
         <h2 class="contact-form__title">Поділися, будь ласка, поштою</h2>
@@ -111,7 +114,7 @@
           </div>
         </div>
 
-        <button type="submit" class="start-btn">Запустити гуся</button>
+        <button type="submit" class="start-btn" id="launch-btn">Запустити гуся</button>
       </form>
     </section>
   </body>
